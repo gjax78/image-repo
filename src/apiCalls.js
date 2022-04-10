@@ -1,13 +1,9 @@
-const fetchAPI = {
-  getAllImages() {
-    return fetch('https://dog.ceo/api/breeds/image/random')
-    .then(response => {
-      if (!response.ok) {
-        throw new Error('Cannot load dog images. Please reload')
-      }
-      return response.json()
-    })
-  }
-}
 
-export default fetchAPI
+export const getAllImages = async () => {
+  let response = await fetch('https://api.imgflip.com/get_memes')
+    if (!response.ok) {
+      throw new Error('Cannot load dog images. Please reload')
+    }
+    let allPictures = await response.json()
+    return allPictures
+}
