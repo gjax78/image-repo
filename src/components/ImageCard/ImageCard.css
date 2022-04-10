@@ -8,3 +8,7 @@ img {
   height: 400px;
   width: 400px;
 }
+
+button {
+  padding-right: 10px;
+}
