@@ -6,7 +6,7 @@ const App = () => {
   const [images, setImages] = useState([])
 
   useEffect(() => {
-    fetchAPI.getAllTricks()
+    fetchAPI.getAllImages()
     .then(data => {
       setImages( data['message'] )
       })
