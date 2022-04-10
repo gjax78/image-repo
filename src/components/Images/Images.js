@@ -15,7 +15,6 @@ const Images = ({ images }) => {
     )
   })
 
-
   return (
     <div className='ideas-container'>
       {imageCards}

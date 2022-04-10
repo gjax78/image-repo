@@ -25,7 +25,6 @@ const App = () => {
   return (
     <div className="App">
       <h1>Image Repository!</h1>
-      {console.log(images)}
       <Images images={images} />
     </div>
   )
