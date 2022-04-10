@@ -1,0 +1,9 @@
+.ideas-container {
+  margin-left: 5%;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  height: 400px;
+  width: 400px;
+}
