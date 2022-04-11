@@ -8,7 +8,9 @@ const Images = ({ images }) => {
     return (
       <div className='ideas-container'>
         <ImageCard
-          src={image.url}
+          src={image.image}
+          title={image.title}
+          originalTitle={image.original_title}
           key={image.id}
         />
       </div>

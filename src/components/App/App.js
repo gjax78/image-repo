@@ -9,7 +9,7 @@ const App = () => {
   const getData = async () => {
     try {
       const images = await getAllImages()
-      const filteredImages = images.data.memes
+      const filteredImages = images
       setImages(filteredImages)
     }
     catch (error) {
@@ -24,7 +24,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Image Repository!</h1>
+      <h1>Studio Ghibli Image Repository</h1>
       <Images images={images} />
     </div>
   )
