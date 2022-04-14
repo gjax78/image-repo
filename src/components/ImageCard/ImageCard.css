@@ -1,12 +1,15 @@
 .card {
   box-sizing: border-box;
-  border: 3px solid black;
+  border: 2px solid #1d3557;
+  border-radius: 7px;
   padding: 10px;
+  background: #a3cef1;
 }
 
 img {
   height: 90%;
   width: 100%;
+  border-radius: 7px;
 }
 
 button {

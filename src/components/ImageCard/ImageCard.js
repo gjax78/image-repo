@@ -10,7 +10,7 @@ const ImageCard = ({ src, title, originalTitle }) => {
       <img src={src} />
       <button className='like-button'
         onClick={() => setIsFav(!isFav)}
-        >{isFav ? '🤍' : '❤️'} </button>
+        >{isFav ? '🤍' : '💙'} </button>
     </div>
   )
 }
