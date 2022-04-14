@@ -1,6 +1,6 @@
 
 export const getAllImages = async () => {
-  let response = await fetch('https://api.imgflip.com/get_memes')
+  let response = await fetch('https://ghibliapi.herokuapp.com/films/')
     if (!response.ok) {
       throw new Error('Cannot load dog images. Please reload')
     }

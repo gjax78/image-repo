@@ -3,13 +3,13 @@ import ImageCard from '../ImageCard/ImageCard'
 import './Images.css'
 
 const Images = ({ images }) => {
-  {console.log(images)}
   const imageCards = images.map(image => {
     return (
-      <div className='ideas-container'>
+      <div className='ideas-container' key={image.id}>
         <ImageCard
-          src={image.url}
-          key={image.id}
+          src={image.image}
+          title={image.title}
+          originalTitle={image.original_title}
         />
       </div>
     )
