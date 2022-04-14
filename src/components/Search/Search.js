@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './Search.css'
 
 const Search = ({ getQuery }) => {
   const [text, setText] = useState('')
@@ -7,11 +8,6 @@ const Search = ({ getQuery }) => {
     setText(e.target.value)
     getQuery(e.target.value)
   }
-
-  // const submitChange = (e) => {
-  //   e.preventDefault()
-  //   getQuery(text)
-  // }
 
   return (
     <section className='search'>

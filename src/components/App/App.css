@@ -1,8 +1,21 @@
 .App {
   text-align: center;
+  background: #6096ba;
+  color: #1d3557;
 }
 
-.App-logo {
+h1 {
+  color: black;
+  padding-top: 20px;
+  margin: 0;
+}
+
+.soot {
+  height: 15%;
+  width: 20%;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +48,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

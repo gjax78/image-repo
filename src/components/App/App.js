@@ -3,6 +3,7 @@ import { getAllImages } from '../../apiCalls.js'
 import React, { useState, useEffect } from 'react'
 import Images from '../Images/Images'
 import Search from '../Search/Search'
+import soot from'./soot.png'
 
 const App = () => {
   const [images, setImages] = useState([])
@@ -24,6 +25,7 @@ const App = () => {
   return (
     <div className="App">
       <h1>Studio Ghibli Image Repository</h1>
+      <img className='soot' src={soot} />
       <Search getQuery={(e) => setSearch(e)}/>
       <Images images={images} />
     </div>

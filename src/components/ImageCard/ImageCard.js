@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './ImageCard.css'
+import love from './love.png'
 
 const ImageCard = ({ src, title, originalTitle }) => {
   const [isFav, setIsFav] = useState(false)
@@ -7,10 +8,11 @@ const ImageCard = ({ src, title, originalTitle }) => {
   return (
     <div className='card'>
       <h1>{title}</h1>
+      <h2>{originalTitle}</h2>
       <img src={src} />
       <button className='like-button'
         onClick={() => setIsFav(!isFav)}
-        >{isFav ? '🤍' : '❤️'} </button>
+        >{isFav ? 'loved' : 'love me' }</button>
     </div>
   )
 }
