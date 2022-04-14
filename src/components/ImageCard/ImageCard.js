@@ -7,6 +7,7 @@ const ImageCard = ({ src, title, originalTitle }) => {
   return (
     <div className='card'>
       <h1>{title}</h1>
+      <h2>{originalTitle}</h2>
       <img src={src} />
       <button className='like-button'
         onClick={() => setIsFav(!isFav)}

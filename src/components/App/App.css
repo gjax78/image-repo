@@ -5,10 +5,15 @@
 }
 
 h1 {
+  color: black;
   padding-top: 20px;
-  margin-top: 0;
+  margin: 0;
 }
 
+.soot {
+  height: 15%;
+  width: 20%;
+}
 
 /* .App-logo {
   height: 40vmin;
