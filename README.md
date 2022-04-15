@@ -1,7 +1,7 @@
 # Studio Ghibli Image Repository
-A responsive, React.js application that allows users to search and 'favorite' Studio Ghibli film posters.
+A responsive React.js application that allows users to search and 'favorite' Studio Ghibli film posters.
 
-![gif](https://user-images.githubusercontent.com/88151743/163449955-af5c2a58-bf45-49c3-92df-9ba5a453e7b1.gif)
+![gif](https://user-images.githubusercontent.com/88151743/163498696-912620cb-eea1-4ec0-88fc-4abb31051e73.gif)
 
 ## Author
 <table>
